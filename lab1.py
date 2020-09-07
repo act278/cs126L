@@ -16,6 +16,17 @@ apple = turtle.Turtle()
 
 def main():
     n = 0
+    startup()
+    while(n < tmax):
+        y = height_init + velocity_init*math.sin(math.radians(angle))*n - 0.5*gravity*(n**2)
+        x = velocity_init*math.cos(math.radians(angle))*n
+        apple.pendown()
+        apple.goto(x,y)
+        n += deltat       
+        if((n > velocity_init*math.sin(math.radians(angle)) / gravity) & (y <= 0)):
+            break
+
+def startup():
     apple.pendown()
     apple.backward(500)
     apple.forward(1000)
@@ -28,14 +39,6 @@ def main():
     apple.right(90)
     apple.penup()
     apple.goto(0,height_init)
-    while(n < tmax):
-        y = height_init + velocity_init*math.sin(math.radians(angle))*n - 0.5*gravity*(n**2)
-        x = velocity_init*math.cos(math.radians(angle))*n
-        apple.pendown()
-        apple.goto(x,y)
-        n += deltat       
-        if((n > velocity_init*math.sin(math.radians(angle)) / gravity) & (y <= 0)):
-            break
 
 main()
 turtle.Screen().exitonclick()
