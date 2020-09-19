@@ -2,14 +2,13 @@ import random
 import math
 import turtle
 
-# distance = random.random()
 distance = 1
 needles = int(input("Enter the amount of needles: "))
 distanceLine = 0
 
 
 def main():
-    buffonNeedle()
+    print(buffonNeedle())
 
 
 def showMontePi(numDarts):
@@ -61,10 +60,12 @@ def buffonNeedle():
     buffStartUp(t)
     intersect = 0
     for _ in range(needles):
+        # Set default color (non-intersecting)
         color = "#6ca641"
         angle = random.randint(0, 180)
         x = random.uniform(0.5, 2.5)
         y = random.uniform(0.5, 2.5)
+        # Determines distance to nearest line
         if((y <= 1.5) & (y > 1)):
             distanceLine = y - 1
         elif(y <= 1):
@@ -73,6 +74,7 @@ def buffonNeedle():
             distanceLine = 2 - y
         elif(y >= 2):
             distanceLine = y - 2
+        # Determines if the needle intersects a line
         if(distanceLine <= math.sin(math.radians(angle))*.5):
             intersect += 1
             color = "#3259c2"
@@ -83,10 +85,14 @@ def buffonNeedle():
         t.forward(distance/2)
         t.backward(distance)
         t.penup()
-    print(2*(needles/intersect))
+        if(intersect == 0):
+            return ("Operation cancelled due to no intersecting lines. "
+                    "Please try again by entering more needles.")
+    return 2*(needles/intersect)
 
 
 def buffStartUp(t):
+    # Draws the 2 lines
     t.penup()
     t.goto(0, 1)
     t.pendown()
