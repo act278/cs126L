@@ -1,0 +1,106 @@
+[{
+    "prompt": "Which Star Wars movie was filmed entirely in the studio?",
+    "answers": [
+        "Attack of the Clones",
+        "Return of the Jedi",
+        "Star Wars",
+        "Revenge of the Sith"
+    ],
+    "correct": "4"
+},
+{
+    "prompt": "Which of the three main heroes (Luke, Leia, and Han Solo) in the first Star Wars trilogy refused to sign a three picture deal?",
+    "answers": [
+        "They all signed",
+        "Harrison Ford",
+        "Mark Hamill",
+        "Carrie Fisher"
+    ],
+    "correct": "2"
+},
+{
+    "prompt": "What color is Mace Windu's lightsaber",
+    "answers": [
+        "Purple",
+        "Green",
+        "Blue",
+        "Red",
+        "Yellow",
+        "Orange"
+    ],
+    "correct": "1"
+},
+{
+    "prompt": "Approximately how many languages can C-3PO speak?",
+    "answers": [
+        "6",
+        "600",
+        "6000",
+        "6 billion",
+        "6 million"
+    ],
+    "correct": "5"
+},
+{
+    "prompt": "Is Jabba species a HUTT?",
+    "answers": [
+        "True",
+        "False"
+    ],
+    "correct": "1"
+},
+{
+    "prompt": "Who are the only two characters who appear in every Star Wars movie?",
+    "answers": [
+        "C-3PO and R2-D2",
+        "Han and Chebacca",
+        "Luke and leia",
+        "Darth Vadar and Yoda"
+    ],
+    "correct": "1"
+},
+{
+    "prompt": "What did Luke cut off the Wampa with his lightsaber?",
+    "answers": [
+        "Leg",
+        "Head",
+        "foot",
+        "ear",
+        "arm"
+    ],
+    "correct": "5"
+},
+{
+    "prompt": "Was Yoda 700 years old when he died",
+    "answers": [
+        "True",
+        "False"
+    ],
+    "correct": "2"
+},
+{
+    "prompt": "Rogue One has an opening crawl – true or false?",
+    "answers": [
+        "True",
+        "False"
+    ],
+    "correct": "2"
+},
+{
+    "prompt": "Who killed Qui-Gon Jinn?",
+    "answers": [
+        "Darth Bane",
+        "Darth Vadar",
+        "Darth Sidiuos",
+        "Darth Maul"
+    ],
+    "correct": "4"
+},
+{
+    "prompt": "Geroge Lucas Created Star Wars?",
+    "answers": [
+        "True",
+        "False"
+    ],
+    "correct": "1"
+}]
