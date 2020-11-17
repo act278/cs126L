@@ -103,4 +103,94 @@
         "False"
     ],
     "correct": "1"
-}]
+},
+{
+	"prompt": "What, according to C-3PO, were the odds of successfully navigating an asteroid field?",
+	"answers": [
+		"4,890 to one",
+		"8,970 to one",
+		"3,720 to one",
+		"725 to one"
+	]
+	"correct": "3"
+},
+{ 
+     "prompt": "Above what planet does Cloud City hover?",
+     "answers": [
+         "Coruscant",
+         "Mustafar",
+         "Wobani",
+         "Bespin"
+     ]
+     "correct": "4"
+ },
+ {
+     "prompt": "What ship has no landing gear?",
+     "answers" : [
+         "Y-Wing",
+         "YT-1300",
+         "X-Wing",
+         "TIE fighter"
+     ]
+     "correct": "4"
+ },
+ {
+     "prompt": "What does TIE stand for?"
+     "answers" : [
+        "Twin Ion Engines",
+        "Two Identical Engines",
+        "Triangle Isometric Electrodes",
+        "None of the above"
+     ]
+     "correct": "1"
+ },
+ {
+     "prompt": "Who supplied the voice for Darth Vader?"
+     "answers" : [
+        "James Earl Jones",
+        "Richard LeParmentier",
+        "David Prowse",
+        "Garrick Hagon"
+     ]
+     "correct": "1"
+ },
+ {
+     "prompt": "Which actor played R2-D2?"
+     "answers" : [
+        "Jack Purvis",
+        "Kenny Baker",
+        "Anthony Daniels",
+        "Peter Mayhew"
+     ]
+     "correct": "2"
+ },
+ {
+     "prompt": "Who was Luke Skywalker's tail gunner in the Battle of Hoth?"
+     "answers" : [
+        "Wedge Antilles",
+        "Dak Ralter",
+        "Derek Klivian",
+        "Wes Janson"
+     ]
+     "correct": "2"
+ },
+ {
+     "prompt": "What is the name of the species that Yoda is the last member?"
+     "answers" : [
+        "Trilith",
+        "Yolor",
+        "Yangral",
+        "Unknown"
+     ]
+     "correct ": "4"
+ },
+ {
+     "prompt": "approximately how much time passed between Episode 4, A New Hope and Episode 5, The Empire Strikes Back?"
+     "answers" : [
+        "1 year",
+        "2 years",
+        "3 years",
+        "6 months"
+     ]
+     "correct": "3"
+ }]
